@@ -1,0 +1,66 @@
+h1 {
+    color: #590d22;
+    text-align: center;
+    display: block;
+    line-height: 4;
+    position: relative;
+    top: 30px;
+    left: 150px;
+
+}
+
+h2 {
+    color: #800f2f;
+    text-align: center;
+    margin-top: 0;
+}
+
+.up {
+    text-align: end;
+    float: right;
+
+}
+
+#groceries {
+    width: 700px;
+    height: 500px;
+}
+
+.one {
+    text-align: center;
+    color: rgba(38, 110, 34, 0.9);
+    border-radius: 50%;
+    border: 1px solid;
+    padding: 50px;
+}
+
+body {
+    background-color: #fed9b7;
+}
+
+button:hover {
+    background-color: #0081a7;
+}
+
+.services {
+    text-align: center;
+    background-image: url(https://media.istockphoto.com/id/1204646431/photo/old-wooden-pallet-plank-texture-background.jpg?s=612x612&w=0&k=20&c=bBdNb4aLIqLABdHvjKkKpIyMFs-Xz9MPoLrRzgLMN-Q=);
+    background-size: cover;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 4em;
+    }
+}
+
+@media (max-width: 576px) {
+    h1 {
+        font-size: 3em;
+    }
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
